@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Add a new Card</p>
+                    <i class="uil uil-times"></i>
+                </header>
+                <form id="cardForm">
+                    <div class="row title">
+                        <label>Card Number</label>
+                        <input type="text" spellcheck="false" placeholder="Enter card number" id="cardNumber" required>
+                    </div>
+                    <div class="row">
+                        <label> Full Name</label>
+                        <input type="text" spellcheck="false" placeholder="Enter Full name" id="userName" required>
+                    </div>
+                    <div class="row">
+                        <label> Phone Number </label>
+                        <input type="text" spellcheck="false" placeholder="Enter phone number" id="phoneNumber" required>
+                    </div>
+                    <button type="submit">Save Card</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <li class="add-box">
+            <div class="icon"><i class="uil uil-plus"></i></div>
+            <p>Add Card</p>
+        </li>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<script src="js/main.js"></script>
